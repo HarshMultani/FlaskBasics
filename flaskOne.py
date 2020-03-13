@@ -1,6 +1,7 @@
 from flask import Flask, redirect, url_for, request, render_template
 app = Flask(__name__)
 
+## These are called as flask views
 @app.route('/hello/')
 def hello_world():
     return "Hello world"
